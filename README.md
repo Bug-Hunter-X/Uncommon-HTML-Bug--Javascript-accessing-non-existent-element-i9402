@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML where JavaScript code attempts to access and modify a DOM element that may not exist.  The bug is silent; it throws no error but also has no visual effect because the element is hidden before the modification.  The solution shows how to check for the element's existence before manipulating it.
